@@ -1,4 +1,6 @@
 //comment one
+import java.awt.Color;
+
 import acm.graphics.GImage;
 import acm.graphics.GLabel;
 import acm.program.GraphicsProgram;
@@ -14,6 +16,7 @@ public class SimplePicture extends GraphicsProgram {
 		GImage robot = new GImage("robot.jpg", 200, 100);
 		add(robot);
 		GLabel label = new GLabel("How I feel when using github hackslash", 200, 400);
+		label.setColor(Color.BLUE);
 		add(label);
 	}
 }
