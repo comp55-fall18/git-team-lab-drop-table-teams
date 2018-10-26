@@ -18,6 +18,7 @@ public class SimplePicture extends GraphicsProgram {
 		add(robot);
 		GLabel label = new GLabel("shut up and take my money", 200, 400);
 		label.setColor(Color.CYAN);
+		label.setLocation(250, 350);
 		add(label);
 	}
 }
