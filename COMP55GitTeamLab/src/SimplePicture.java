@@ -1,4 +1,4 @@
-//comment one
+//Hello all
 import java.awt.Color;
 
 import acm.graphics.GImage;
