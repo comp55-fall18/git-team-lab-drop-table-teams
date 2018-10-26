@@ -1,4 +1,5 @@
 //Hello all
+//Here is my second comment
 import java.awt.Color;
 
 import acm.graphics.GImage;
